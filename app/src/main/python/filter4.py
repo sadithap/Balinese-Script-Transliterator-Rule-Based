@@ -8,6 +8,7 @@ maxword = max(len(x) for x in words)
 
 def infer_spaces(s):
 
+    #dynamic programing based on cost that given before
     def best_match(i):
         candidates = enumerate(reversed(cost[max(0, i-maxword):i]))
         return min((c + wordcost.get(s[i-k-1:i], 9e999), k+1) for k,c in candidates)

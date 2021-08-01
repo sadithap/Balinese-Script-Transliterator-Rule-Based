@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545c6bd0-8aca-4ef5-90ff-b04441fb1574" name="Default Changelist" comment="" />
+    <list default="true" id="545c6bd0-8aca-4ef5-90ff-b04441fb1574" name="Default Changelist" comment="adding copy button">
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testta/Filter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testta/Filter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testta/Filter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testta/Filter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testta/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testta/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/python/filter4.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/python/filter4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624237881947</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing push without local.properties">
+      <created>1624238302908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624238302908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -200,7 +215,9 @@
     <MESSAGE value="add main script" />
     <MESSAGE value="update python script" />
     <MESSAGE value="removing local.properties from github repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing local.properties from github repository" />
+    <MESSAGE value="testing push without local.properties" />
+    <MESSAGE value="adding copy button" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding copy button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="110" key="#PSD" timestamp="1623229986249">
@@ -219,10 +236,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1623234421776" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1624237880084">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1627825686451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624237880084" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1627825686451" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1624158380532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,13 +276,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624196659630" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1624237897209">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1624238313001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624237897209" />
-    <state width="383" height="87" key="javadoc.popup.new" timestamp="1623235176102">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624238313001" />
+    <state width="383" height="87" key="javadoc.popup.new" timestamp="1627827210134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="383" height="87" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1623235176102" />
+    <state width="383" height="87" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1627827210134" />
   </component>
 </project>

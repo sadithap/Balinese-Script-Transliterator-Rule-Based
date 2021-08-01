@@ -2,6 +2,7 @@ package com.example.testta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.os.Bundle;
 import android.text.Editable;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText input;
     ImageButton paste;
+    ImageButton copy;
     ImageButton ulu_candra;
     ImageButton ulu_ricem;
     TextView output;
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         ulu_candra=findViewById(R.id.ulu_candra);
         ulu_ricem=findViewById(R.id.ulu_ricem);
         paste=findViewById(R.id.paste);
+        copy=findViewById(R.id.copy);
         output=findViewById(R.id.output);
         text=input.getText().toString();
 
@@ -82,9 +85,11 @@ public class MainActivity extends AppCompatActivity {
                 output.setText(temp);
                 if(output.getText().toString().equals("")){
                    output.setVisibility(View.INVISIBLE);
+                   copy.setVisibility(View.INVISIBLE);
                 }
                 else{
                     output.setVisibility(View.VISIBLE);
+                    copy.setVisibility(View.VISIBLE);
                 }
             }
 
@@ -102,6 +107,16 @@ public class MainActivity extends AppCompatActivity {
                 String temp=input.getText().toString();
                 input.setText(temp+(clipboard.getPrimaryClip().getItemAt(0).getText().toString()));
                 input.setSelection(input.getText().length());
+            }
+        });
+
+        copy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+
+                ClipData clip = ClipData.newPlainText("Terjemahan Aksara", output.getText().toString());
+                clipboard.setPrimaryClip(clip);
             }
         });
 
